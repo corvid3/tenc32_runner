@@ -1,0 +1,34 @@
+[hewg]
+version = "0.4.0-alpha"
+type = "executable"
+
+[project]
+version = "0.0.0"
+org = "crow"
+name = "10c32_runner"
+description = ""
+authors = { }
+
+[depends]
+internal = { 
+	"=crow.crowcpu-0.0.0"
+	"=crow.10c32_serial-0.1.0"
+	"=crow.10c32_floppy-0.0.0"
+}
+
+external = {}
+
+[cxx]
+flags = { "-Wall" "-Wextra" "-Werror" }
+std = 23
+sources = { }
+
+[c]
+flags = { "-Wall" "-Wextra" "-Werror" "-D_POSIX_C_SOURCE=200809L" }
+std = 17
+sources = { 
+	"main.c"
+}
+
+[hooks.prebuild]
+[hooks.postbuild]
