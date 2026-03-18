@@ -14,6 +14,7 @@ internal = {
 	"=crow.crowcpu-0.0.0"
 	"=crow.10c32_serial-0.1.0"
 	"=crow.10c32_floppy-0.0.0"
+	"=crow.vtparse-0.0.0"
 }
 
 external = {}

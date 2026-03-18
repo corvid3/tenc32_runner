@@ -1,0 +1,27 @@
+[
+    {
+        "arguments": [
+            "x86_64-pc-linux-gnu-cc",
+            "-c",
+            "-Iprivate",
+            "-Iinclude",
+            "-fdiagnostics-color=always",
+            "-Og",
+            "-g",
+            "-DHEWG_ORG=crow",
+            "-DHEWG_NAME=10c32_runner",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-D_POSIX_C_SOURCE=200809L",
+            "-std=c17",
+            "-I/home/korvo/.hewg/packages/crow.crowcpu-0.0.0:x86-linux-gnu/include",
+            "-I/home/korvo/.hewg/packages/crow.vtparse-0.0.0:x86-linux-gnu/include",
+            "-I/home/korvo/.hewg/packages/crow.10c32_floppy-0.0.0:x86-linux-gnu/include",
+            "-I/home/korvo/.hewg/packages/crow.10c32_serial-0.1.0:x86-linux-gnu/include",
+            "-I/home/korvo/.hewg/packages/crow.crowcpu_arch-0.1.0:x86-linux-gnu/include"
+        ],
+        "directory": "/home/korvo/gits/10c32_runner",
+        "file": "csrc/main.c"
+    }
+]
